@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding//src/com/revature/dao/impl/CartDAOImpl.java=UTF-8
+encoding//src/com/revature/dao/impl/FavoriteDAOImpl.java=UTF-8
+encoding//src/com/revature/dao/impl/ProductDAOImpl.java=UTF-8
+encoding//src/com/revature/dao/impl/ReviewDAOImpl.java=UTF-8
+encoding//src/com/revature/dao/impl/UserDAOImpl.java=UTF-8
+encoding//src/com/revature/model/Category.java=UTF-8
+encoding//src/com/revature/service/FavoriteService.java=UTF-8
+encoding//src/com/revature/service/ReviewService.java=UTF-8
+encoding//src/com/revature/ui/AuthMenu.java=UTF-8
+encoding//src/com/revature/ui/BuyerMenu.java=UTF-8
+encoding//src/com/revature/ui/SellerMenu.java=UTF-8
+encoding//src/com/revature/util/ConsoleUtil.java=UTF-8
+encoding//src/com/revature/util/ValidationUtil.java=UTF-8
