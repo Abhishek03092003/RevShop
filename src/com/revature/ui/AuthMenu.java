@@ -70,7 +70,20 @@ public class AuthMenu {
 
         System.out.print("Name: ");
         String name = sc.nextLine();
+        String phNumber;
 
+        while (true) {
+
+            System.out.print("Phone Number: ");
+            phNumber = sc.nextLine().trim(); // trim avoids space issues
+
+            if (!ValidationUtil.isValidNumber(phNumber)) {
+                ConsoleUtil.error("Invalid Number Format(Phone Number must  contains 10 digits)");
+            } else {
+//                System.out.println("✅ Valid Phone Number");
+                break; // ✅ EXIT LOOP
+            }
+        }
         String email;
 
         while(true){

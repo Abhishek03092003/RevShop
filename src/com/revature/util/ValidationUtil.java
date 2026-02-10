@@ -12,7 +12,11 @@ public class ValidationUtil {
     private static final String PASSWORD_REGEX =
             "^(?=.*[A-Z])(?=.*[a-z])(?=.*\\d)(?=.*[@#$%^&+=!]).{8,}$";
 
-
+    private static final String Number_REGEX =
+    		"^[89][0-9]{9}$";
+    public static boolean isValidNumber(String phNumber) {
+        return Pattern.matches(Number_REGEX, phNumber);
+    }
     public static boolean isValidEmail(String email) {
         return Pattern.matches(EMAIL_REGEX, email);
     }
